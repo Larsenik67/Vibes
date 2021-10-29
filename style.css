@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -56,8 +58,8 @@ img{
     width: 100%;
     object-position: bottom;
     object-fit: cover;
-    height: 50vh;
-    filter: grayscale();
+    height: 70vh;
+    filter: grayscale(60%) brightness(0.6);
     
 }
 #header_div_text{
@@ -67,13 +69,28 @@ img{
     height: 100%;
     width: 100%;
     position: absolute;
-    font-size: 3vh;
     text-align: center;
     color: white;
     font-weight: bolder;
     text-shadow: 0 0 2px black;
 }
-#header_div_text>h1{
-    color: white;
-    font-weight: 400;
+#header_div_text_first{
+    font-weight: bold;
+    font-size: 100px;
+}
+
+#header_div_text_second {
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    height: 50px;
+    width: 50px;
 }
