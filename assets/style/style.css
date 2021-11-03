@@ -72,7 +72,7 @@ img{
     object-position: bottom;
     object-fit: cover;
     height: 70vh;
-    background-image: url('img/banniere.png');
+    background-image: url("assets/img/banniere.png");
     background-size: cover;
     filter: grayscale(60%) brightness(0.6);    
 }
